@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MATHIAS ALVAAAAAAAA - Introducción a la ciencia de la Computación</title>
+    <meta name="description" content="Página personal de [Tu Nombre Apellido], estudiante de Ciencia de la Computación en la Universidad Católica San Pablo (UCSP). Intereses en programación y tecnología.">
+    <meta name="keywords" content="[Tu Nombre], [Tu Nombre Completo], [Tu Apellido], UCSP, Ciencia de la Computación, Arequipa, Perú, estudiante">
+    <link rel="canonical" href="https://[TU-USUARIO-DE-GITHUB].github.io/" />
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "[Tu Nombre Apellido]",
+      "jobTitle": "Estudiante de Ciencia de la Computación",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universidad Católica San Pablo",
+        "alternateName": "UCSP"
+      },
+      "url": "https://[TU-USUARIO-DE-GITHUB].github.io/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Arequipa",
+        "addressCountry": "PE"
+      }
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ESTILOS BASE: Negro absoluto y texto gris claro */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto Mono', monospace; /* Tipo letra 'código' */
+            background-color: #000000;
+            color: #d1d1d1;
+            line-height: 1.6;
+        }
+
+        /* TÍTULOS: Oswald, fuerte y mayúscula */
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* HEADER: Rojo oscuro puro */
+        header {
+            background-color: #550000; /* Rojo muy oscuro */
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 5px solid #000;
+            box-shadow: 0 4px 15px rgba(85,0,0,0.5);
+        }
+        header h1 { color: #ffffff; font-size: 50px; text-shadow: 2px 2px 0 #000; }
+        header h3 { color: #ff9999; font-weight: 400; margin-top: 10px; font-family: 'Roboto Mono', monospace; text-transform: none;}
+
+        /* CONTENEDOR PRINCIPAL: Layout diferente */
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: 1fr; /* Una columna por defecto */
+            gap: 30px;
+        }
+
+        /* SECCIONES: Tarjetas con borde rojo oscuro */
+        section {
+            background: #111111; /* Negro muy oscuro, casi negro */
+            padding: 40px;
+            border-radius: 4px;
+            border: 2px solid #330000; /* Borde rojo muy sutil */
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+        section:hover {
+            border-color: #880000; /* Se ilumina en rojo más claro al pasar el mouse */
+            transform: translateY(-5px);
+        }
+
+        h2 { color: #ff4d4d; margin-bottom: 25px; border-bottom: 2px solid #550000; padding-bottom: 10px; font-size: 28px; }
+        h3 { color: #d1d1d1; margin-top: 20px; margin-bottom: 10px; font-size: 18px; }
+        
+        ul { list-style: none; padding-left: 0; }
+        li { margin-bottom: 12px; padding-left: 15px; border-left: 3px solid #330000; }
+        li:hover { border-left-color: #ff4d4d; }
+
+        /* ENLACES: Rojo brillante */
+        a { text-decoration: none; color: #ff1a1a; font-weight: bold; transition: 0.2s; }
+        a:hover { color: #ffffff; background-color: #550000; padding: 2px 5px; border-radius: 2px;}
+
+        /* BOTONES: Rojo oscuro estático */
+        .boton-container { margin-top: 30px; text-align: center; }
+        .boton {
+            display: inline-block;
+            background: #550000;
+            padding: 15px 30px;
+            border-radius: 0px; /* Bordes cuadrados */
+            color: white;
+            transition: 0.2s;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            border: 2px solid #ff4d4d;
+        }
+        .boton:hover { background: #aa0000; color: #fff; text-decoration: none; transform: scale(1.05); }
+
+        /* FOOTER: Negro */
+        footer {
+            text-align: center;
+            padding: 50px;
+            margin-top: 60px;
+            background-color: #080808;
+            border-top: 2px solid #330000;
+            color: #888888;
+        }
+
+        /* MEDIA QUERY: Para pantallas grandes */
+        @media (min-width: 768px) {
+            main {
+                grid-template-columns: 2fr 1fr; /* Dos columnas: Contenido y Sidebar */
+            }
+            .full-width {
+                grid-column: 1 / -1; /* Secciones que ocupan todo el ancho */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mathias Alva</h1>
+    <h3>Estudiante de Administración - UCSP</h3>
+    
+    <div class="boton-container">
+        <a class="boton" href="https://www.linkedin.com/in/[TU-PERFIL]/" target="_blank">Perfil de linkedin(no tengo)</a>
+    </div>
+</header>
+
+<main>
+    <div class="col-main">
+        <section>
+            <h2>> SOBRE MÍ</h2>
+            <p>
+                Soy estudiante de la carrera de Admin en la Universidad Católica San Pablo (UCSP). 
+                quiero acabar el semestre sin jalar nada y con buen promedio en todo.
+            </p>
+        </section>
+
+        <section>
+            <h2>> FORMACIÓN ACADÉMICA</h2>
+            <h3>COLEGIOS</h3>
+            <ul>
+                <li>Colegio San francisco de Asis</li>
+            </ul>
+            <ul>
+                <li>Colegio Innova Schools</li>
+            </ul>
+            
+            <h3>UNIVERSIDAD</h3>
+            <ul>
+                <li><a href="https://ucsp.edu.pe/" target="_blank">Universidad Católica San Pablo</a></li>
+            </ul>
+        </section>
+
+        <section class="cursos">
+            <h2>> CURSOS Y PROFESORES</h2>
+            <ul>
+                <li>Fundamentos de Programación - <a href="https://www.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143/" target="_blank">Kelly Vizconde La Motta</a></li>
+                <li>Introducción a Computación - <a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">Ernesto Cuadros Vargas</a></li>
+                <li>Fundamentos Matemáticos para Computación - Fiorella María Rendón García</li>
+                <li>Comunicación I - Lourdes Eliana Velarde Ortiz</li>
+                <li>Lógica - <a href="https://pe.linkedin.com/in/solange-tejada" target="_blank">Solange Ximena Tejada Cuadros</a></li>
+                <li>Introducción a la Vida Universitaria - Pierina Pacheco Leyton</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="col-side">
+        <section>
+            <h2>> INTERESES</h2>
+            <ul>
+                <li>[Interés Técnico 1, ej: Reparación de Hardware]</li>
+                <li>[Interés Técnico 2, ej: Busqueda y rescate]</li>
+                <li>[Interés Técnico 3] Manejo de herramientas hidraulicas</li>
+                <li>[Interés Personal 1] Atención de heridos en zonas de conflicto</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>> CONTACTO</h2>
+            <p><strong>Correo Institucional:</strong><br> mathias.alva@ucsp.edu.pe</p>
+            <br>
+            <a href="https://github.com/MathiasAlva" target="_blank">>> GH</a>
+        </section>
+    </div>
+
+    <section class="full-width">
+        <h2>> COMPAÑEROS DE CURSO</h2>
+        <ul>
+            <li><a href="https://flavio-hc.github.io/pagina-personal/" target="_blank">Flavio Alessandro Yazid Hancco Chaiña</a></li>
+            <li><a href="https://lorian0x.github.io/" target="_blank">Fabrizio Alessandro Ocsa Sanchez</a></li>
+            <li><a href="https://w4nd4r1.github.io/Ariana-Yasmin-Delgado-Arce/" target="_blank">Ariana Yasmín Delgado Arce</a></li>
+            <li><a href="https://aaronhumpiri.github.io/" target="_blank">Aaron Humpiri Obregon</a></li>
+            <li><a href="https://kenya-sq.github.io/Kenya-Shupingahua-Quiroz/" target="_blank">Kenya Magdiel Shupingahua Quiroz</a></li>
+            <li><a href="https://andrew-oremour.github.io/" target="_blank">Andree Fabiano Huamani Pizarro</a></li>
+            <li><a href="https://kathe-fac.github.io/" target="_blank">Katheryne Flor Aimituma Ccallo</a></li>
+            <li><a href="https://wesudobones.github.io/page/" target="_blank">Christopher Alexander Osnayo Mamani</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p><strong>Mathias Alva</strong></p>
+    <p>Administración | Universidad Católica San Pablo | Arequipa, Perú</p>
+</footer>
+
+</body>
+</html>
